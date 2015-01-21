@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.boomGuid = @"ca92b245-7951-43f3-b76d-ab10f9ade5c3";
+    self.boomGuid = @"ff0033eb-481e-4da3-8d54-0ac3f9e5e66f";    //Demo boomGUID
     self.resourceManager = [BMResourceManager sharedInstance];
     self.resourceManager.videoTrackerInfoDelegate = self;
 }

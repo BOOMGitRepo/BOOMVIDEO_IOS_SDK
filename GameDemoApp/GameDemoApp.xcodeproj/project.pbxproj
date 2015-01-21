@@ -33,8 +33,8 @@
 		B73C25751A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C256D1A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard */; };
 		B73C25761A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C256E1A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard */; };
 		B73C25771A6D301500E5B582 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B73C25721A6D301500E5B582 /* YTPlayerView-iframe-player.html */; };
-		B73C25781A6D301500E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25741A6D301500E5B582 /* libBoomVideoSDKLibrary.a */; };
 		B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */; };
+		B73C25801A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +99,8 @@
 		B73C25711A6D301500E5B582 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B73C25721A6D301500E5B582 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		B73C25731A6D301500E5B582 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
-		B73C25741A6D301500E5B582 /* libBoomVideoSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoSDKLibrary.a; sourceTree = "<group>"; };
 		B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoSDKLibrary.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				B73C25501A6D2FCA00E5B582 /* CoreMotion.framework in Frameworks */,
 				B73C25511A6D2FCA00E5B582 /* CoreText.framework in Frameworks */,
 				B73C25521A6D2FCA00E5B582 /* JavaScriptCore.framework in Frameworks */,
-				B73C25781A6D301500E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */,
+				B73C25801A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */,
 				B73C25531A6D2FCA00E5B582 /* MediaPlayer.framework in Frameworks */,
 				B73C25541A6D2FCA00E5B582 /* Security.framework in Frameworks */,
 				B73C25551A6D2FCA00E5B582 /* Social.framework in Frameworks */,
@@ -233,8 +233,8 @@
 		B73C255B1A6D2FED00E5B582 /* ThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */,
 				B73C255C1A6D301500E5B582 /* include */,
-				B73C25741A6D301500E5B582 /* libBoomVideoSDKLibrary.a */,
 			);
 			name = ThirdPartyLibrary;
 			sourceTree = "<group>";
@@ -459,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +512,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GameDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,6 +532,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GameDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,6 +596,7 @@
 				B73C25351A6D2E2300E5B582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B73C25361A6D2E2300E5B582 /* Build configuration list for PBXNativeTarget "GameDemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +605,7 @@
 				B73C25381A6D2E2300E5B582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
