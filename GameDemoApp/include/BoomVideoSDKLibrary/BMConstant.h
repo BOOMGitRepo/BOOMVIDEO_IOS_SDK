@@ -28,12 +28,11 @@
 #define kWATCHTIME_YTT                  @"ytt="
 #define kWATCHTIME_TT                   @"tt="
 
-#define KOFFERLIST_URL                  @"https://offerlistone-creativecybage1.c9.io/index.html?boomid=kBoomGuid&countrycode=kCountryCodeId"
-#define KOFFERLIST_SURVEY_URL           @"https://offerlistone-creativecybage1.c9.io/surveyquestions.html?boomid=kBoomGuid&countrycode=kCountryCodeId&optionid=kOptionId"
+#define KOFFERLIST_URL                  @"http://boom.boomvideo.tv/alpha/offerlist/assets/assets/index.html?boomid=kBoomGuid&countrycode=kCountryCodeId"
 #define VPN_SERVER_URL                  @"http://180.92.199.171/MobileWS/GetCampaigns?publisherGUID=kGameGuid&OfferList=kOfferlistId&countrycode=kCountryCodeId&Preroll=kPrerolId&Reward=kRewardId"
 #define kSURVEY_TRACKING_URL            @"http://content.boomvideo.tv/alpha2/ads/ads_track/tracking_mulsurvey.php?answer=kOption&ID=kGameGuid&type=0&qid=kQID&nextid=kNextQId&vpid=kVpidString"
-#define kBRANDLIFT_URL                  @"http://offerlistone-creativecybage1.c9.io/brandlift.html?boomid=kGameGuid&countrycode=kCountryCodeId&id=kBrandLiftId"
 #define kBRANDLIFT_TRACKING_URL         @"https://c.bvcau.com.au/alpha/boomsurvey/track_survey.php?ID=kGameGuid&vpid=kVpidString&val=kBrandLiftId&type=0"
+#define kBRANDLIFT_LOADING_URL          @"https://c.bvcau.com.au/alpha2/ads/boomsurvey/track_survey.php?ID=kGameGuid&vpid=kVpidString&val=Loading&type=0"
 #define kGAMEGUID                       @"kGameGuid"
 #define kOFFERLISTID                    @"kOfferlistId"
 #define kCOUNTRYCODE                    @"kCountryCodeId"
@@ -157,8 +156,10 @@
 #define kAnalytics_CallBack_Posted_Embed
 #define kAnalytics_CallBack_Blog                @"Blog"
 #define kAnalytics_CallBack_Instagram           @"Instagram"
-#define kAnalytics_CallBack_Slideshare          @"Slideshare"
+#define kAnalytics_CallBack_Slideshare          @"SlideShare"
 #define kAnalytics_CallBack_Installation        @"Install"
+#define kAnalytics_CallBack_Purchase            @"Purchase"
+#define kAnalytics_CallBack_Website             @"Website"
 #define kAnalytics_CallBack_VideoPaused         @"videoPaused"
 
 #define kUserDefaultObject              @"YES"

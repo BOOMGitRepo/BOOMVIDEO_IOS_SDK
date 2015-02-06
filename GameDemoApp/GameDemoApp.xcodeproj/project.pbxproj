@@ -30,11 +30,11 @@
 		B73C25561A6D2FCA00E5B582 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C254B1A6D2FCA00E5B582 /* SystemConfiguration.framework */; };
 		B73C25581A6D2FD500E5B582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25571A6D2FD500E5B582 /* Foundation.framework */; };
 		B73C255A1A6D2FDB00E5B582 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25591A6D2FDB00E5B582 /* UIKit.framework */; };
-		B73C25751A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C256D1A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard */; };
-		B73C25761A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C256E1A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard */; };
-		B73C25771A6D301500E5B582 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B73C25721A6D301500E5B582 /* YTPlayerView-iframe-player.html */; };
 		B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */; };
-		B73C25801A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */; };
+		B75B5F271A84F98500B373A2 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75B5F1F1A84F98500B373A2 /* Boom_Video_Storyboard_iPad.storyboard */; };
+		B75B5F281A84F98500B373A2 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75B5F201A84F98500B373A2 /* Boom_Video_Storyboard_iPhone.storyboard */; };
+		B75B5F291A84F98500B373A2 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B75B5F241A84F98500B373A2 /* YTPlayerView-iframe-player.html */; };
+		B75B5F2A1A84F98500B373A2 /* libBoomVideoSDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75B5F261A84F98500B373A2 /* libBoomVideoSDKLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,30 +77,30 @@
 		B73C254B1A6D2FCA00E5B582 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B73C25571A6D2FD500E5B582 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B73C25591A6D2FDB00E5B582 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B73C255E1A6D301500E5B582 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		B73C255F1A6D301500E5B582 /* BMAnalyticsRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAnalyticsRequestResponseHandler.h; sourceTree = "<group>"; };
-		B73C25601A6D301500E5B582 /* BMBasePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBasePlayerViewController.h; sourceTree = "<group>"; };
-		B73C25611A6D301500E5B582 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		B73C25621A6D301500E5B582 /* BMBusinessRuleRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleRequestResponseHandler.h; sourceTree = "<group>"; };
-		B73C25631A6D301500E5B582 /* BMConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMConstant.h; sourceTree = "<group>"; };
-		B73C25641A6D301500E5B582 /* BMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNetworkManager.h; sourceTree = "<group>"; };
-		B73C25651A6D301500E5B582 /* BMNonYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNonYouTubePlayerViewController.h; sourceTree = "<group>"; };
-		B73C25661A6D301500E5B582 /* BMOfferListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMOfferListViewController.h; sourceTree = "<group>"; };
-		B73C25671A6D301500E5B582 /* BMRechabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRechabilityManager.h; sourceTree = "<group>"; };
-		B73C25681A6D301500E5B582 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		B73C25691A6D301500E5B582 /* BMResponseRequestBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResponseRequestBaseHandler.h; sourceTree = "<group>"; };
-		B73C256A1A6D301500E5B582 /* BMSocialSharingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSocialSharingManager.h; sourceTree = "<group>"; };
-		B73C256B1A6D301500E5B582 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		B73C256C1A6D301500E5B582 /* BMYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMYouTubePlayerViewController.h; sourceTree = "<group>"; };
-		B73C256D1A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
-		B73C256E1A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B73C256F1A6D301500E5B582 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		B73C25701A6D301500E5B582 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		B73C25711A6D301500E5B582 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		B73C25721A6D301500E5B582 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
-		B73C25731A6D301500E5B582 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
-		B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoSDKLibrary.a; sourceTree = "<group>"; };
+		B75B5F101A84F98500B373A2 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
+		B75B5F111A84F98500B373A2 /* BMAnalyticsRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAnalyticsRequestResponseHandler.h; sourceTree = "<group>"; };
+		B75B5F121A84F98500B373A2 /* BMBasePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBasePlayerViewController.h; sourceTree = "<group>"; };
+		B75B5F131A84F98500B373A2 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
+		B75B5F141A84F98500B373A2 /* BMBusinessRuleRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleRequestResponseHandler.h; sourceTree = "<group>"; };
+		B75B5F151A84F98500B373A2 /* BMConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMConstant.h; sourceTree = "<group>"; };
+		B75B5F161A84F98500B373A2 /* BMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNetworkManager.h; sourceTree = "<group>"; };
+		B75B5F171A84F98500B373A2 /* BMNonYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNonYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		B75B5F181A84F98500B373A2 /* BMOfferListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMOfferListViewController.h; sourceTree = "<group>"; };
+		B75B5F191A84F98500B373A2 /* BMRechabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRechabilityManager.h; sourceTree = "<group>"; };
+		B75B5F1A1A84F98500B373A2 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		B75B5F1B1A84F98500B373A2 /* BMResponseRequestBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResponseRequestBaseHandler.h; sourceTree = "<group>"; };
+		B75B5F1C1A84F98500B373A2 /* BMSocialSharingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSocialSharingManager.h; sourceTree = "<group>"; };
+		B75B5F1D1A84F98500B373A2 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
+		B75B5F1E1A84F98500B373A2 /* BMYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		B75B5F1F1A84F98500B373A2 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		B75B5F201A84F98500B373A2 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B75B5F211A84F98500B373A2 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		B75B5F221A84F98500B373A2 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
+		B75B5F231A84F98500B373A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B75B5F241A84F98500B373A2 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		B75B5F251A84F98500B373A2 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		B75B5F261A84F98500B373A2 /* libBoomVideoSDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoSDKLibrary.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				B73C25501A6D2FCA00E5B582 /* CoreMotion.framework in Frameworks */,
 				B73C25511A6D2FCA00E5B582 /* CoreText.framework in Frameworks */,
 				B73C25521A6D2FCA00E5B582 /* JavaScriptCore.framework in Frameworks */,
-				B73C25801A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a in Frameworks */,
+				B75B5F2A1A84F98500B373A2 /* libBoomVideoSDKLibrary.a in Frameworks */,
 				B73C25531A6D2FCA00E5B582 /* MediaPlayer.framework in Frameworks */,
 				B73C25541A6D2FCA00E5B582 /* Security.framework in Frameworks */,
 				B73C25551A6D2FCA00E5B582 /* Social.framework in Frameworks */,
@@ -233,45 +233,45 @@
 		B73C255B1A6D2FED00E5B582 /* ThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B73C257F1A6FB1F700E5B582 /* libBoomVideoSDKLibrary.a */,
-				B73C255C1A6D301500E5B582 /* include */,
+				B75B5F0E1A84F98500B373A2 /* include */,
+				B75B5F261A84F98500B373A2 /* libBoomVideoSDKLibrary.a */,
 			);
 			name = ThirdPartyLibrary;
 			sourceTree = "<group>";
 		};
-		B73C255C1A6D301500E5B582 /* include */ = {
+		B75B5F0E1A84F98500B373A2 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B73C255D1A6D301500E5B582 /* BoomVideoSDKLibrary */,
+				B75B5F0F1A84F98500B373A2 /* BoomVideoSDKLibrary */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		B73C255D1A6D301500E5B582 /* BoomVideoSDKLibrary */ = {
+		B75B5F0F1A84F98500B373A2 /* BoomVideoSDKLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B73C255E1A6D301500E5B582 /* AnalyticsTrackingDelegate.h */,
-				B73C255F1A6D301500E5B582 /* BMAnalyticsRequestResponseHandler.h */,
-				B73C25601A6D301500E5B582 /* BMBasePlayerViewController.h */,
-				B73C25611A6D301500E5B582 /* BMBusinessRuleExecuter.h */,
-				B73C25621A6D301500E5B582 /* BMBusinessRuleRequestResponseHandler.h */,
-				B73C25631A6D301500E5B582 /* BMConstant.h */,
-				B73C25641A6D301500E5B582 /* BMNetworkManager.h */,
-				B73C25651A6D301500E5B582 /* BMNonYouTubePlayerViewController.h */,
-				B73C25661A6D301500E5B582 /* BMOfferListViewController.h */,
-				B73C25671A6D301500E5B582 /* BMRechabilityManager.h */,
-				B73C25681A6D301500E5B582 /* BMResourceManager.h */,
-				B73C25691A6D301500E5B582 /* BMResponseRequestBaseHandler.h */,
-				B73C256A1A6D301500E5B582 /* BMSocialSharingManager.h */,
-				B73C256B1A6D301500E5B582 /* BMVideoData.h */,
-				B73C256C1A6D301500E5B582 /* BMYouTubePlayerViewController.h */,
-				B73C256D1A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard */,
-				B73C256E1A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard */,
-				B73C256F1A6D301500E5B582 /* BoomVideoTrackerDelegate.h */,
-				B73C25701A6D301500E5B582 /* BusinessRuleExecuterDelegate.h */,
-				B73C25711A6D301500E5B582 /* Reachability.h */,
-				B73C25721A6D301500E5B582 /* YTPlayerView-iframe-player.html */,
-				B73C25731A6D301500E5B582 /* YTPlayerView.h */,
+				B75B5F101A84F98500B373A2 /* AnalyticsTrackingDelegate.h */,
+				B75B5F111A84F98500B373A2 /* BMAnalyticsRequestResponseHandler.h */,
+				B75B5F121A84F98500B373A2 /* BMBasePlayerViewController.h */,
+				B75B5F131A84F98500B373A2 /* BMBusinessRuleExecuter.h */,
+				B75B5F141A84F98500B373A2 /* BMBusinessRuleRequestResponseHandler.h */,
+				B75B5F151A84F98500B373A2 /* BMConstant.h */,
+				B75B5F161A84F98500B373A2 /* BMNetworkManager.h */,
+				B75B5F171A84F98500B373A2 /* BMNonYouTubePlayerViewController.h */,
+				B75B5F181A84F98500B373A2 /* BMOfferListViewController.h */,
+				B75B5F191A84F98500B373A2 /* BMRechabilityManager.h */,
+				B75B5F1A1A84F98500B373A2 /* BMResourceManager.h */,
+				B75B5F1B1A84F98500B373A2 /* BMResponseRequestBaseHandler.h */,
+				B75B5F1C1A84F98500B373A2 /* BMSocialSharingManager.h */,
+				B75B5F1D1A84F98500B373A2 /* BMVideoData.h */,
+				B75B5F1E1A84F98500B373A2 /* BMYouTubePlayerViewController.h */,
+				B75B5F1F1A84F98500B373A2 /* Boom_Video_Storyboard_iPad.storyboard */,
+				B75B5F201A84F98500B373A2 /* Boom_Video_Storyboard_iPhone.storyboard */,
+				B75B5F211A84F98500B373A2 /* BoomVideoTrackerDelegate.h */,
+				B75B5F221A84F98500B373A2 /* BusinessRuleExecuterDelegate.h */,
+				B75B5F231A84F98500B373A2 /* Reachability.h */,
+				B75B5F241A84F98500B373A2 /* YTPlayerView-iframe-player.html */,
+				B75B5F251A84F98500B373A2 /* YTPlayerView.h */,
 			);
 			path = BoomVideoSDKLibrary;
 			sourceTree = "<group>";
@@ -357,12 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73C251F1A6D2E2200E5B582 /* Main.storyboard in Resources */,
-				B73C25751A6D301500E5B582 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
+				B75B5F281A84F98500B373A2 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				B75B5F291A84F98500B373A2 /* YTPlayerView-iframe-player.html in Resources */,
 				B73C25241A6D2E2200E5B582 /* LaunchScreen.xib in Resources */,
-				B73C25761A6D301500E5B582 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				B75B5F271A84F98500B373A2 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
 				B73C253F1A6D2F5300E5B582 /* GooglePlus.bundle in Resources */,
 				B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */,
-				B73C25771A6D301500E5B582 /* YTPlayerView-iframe-player.html in Resources */,
 				B73C25211A6D2E2200E5B582 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +517,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GameDemoApp",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,6 +538,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GameDemoApp",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

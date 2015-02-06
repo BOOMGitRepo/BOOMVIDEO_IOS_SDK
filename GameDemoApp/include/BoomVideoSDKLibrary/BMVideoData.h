@@ -42,6 +42,7 @@
 @property (nonatomic,copy) NSString *callBackUrl;                   //  callBackUrl
 @property (nonatomic,copy) NSString *currency;                      //  currency
 @property (nonatomic,copy) NSString *gameCampaignId;                //  gameCampaignId
+@property (nonatomic,copy) NSString *videoCampaignId;               //  videoCampaignId
 @property (nonatomic,copy) NSString *height;                        //  height
 @property (nonatomic,copy) NSString *preroll;                       //  preroll
 @property (nonatomic,copy) NSString *privateKey;                    //  privateKey
