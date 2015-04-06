@@ -56,9 +56,11 @@
 @property (nonatomic,copy) NSNumber *brandliftId;                   //  brandliftId
 @property (nonatomic,copy) NSString *option;                        //  option
 @property (nonatomic,strong) NSMutableArray *surveyQuestion;        //  survey
-
+@property (nonatomic,copy) NSString *mraidHtmlString;
 @property (nonatomic) double annStart;                              //  AnnotationStartTime
 @property (nonatomic) double annEnd;                                //  AnnotationFinishTime
 @property (nonatomic) int socialSharing;                            //  SocialSharing
+
+@property (nonatomic) BOOL isMraid;
 
 @end

@@ -9,23 +9,12 @@
 
 
 #import <UIKit/UIKit.h>
-#import "BMResourceManager.h"
-#import "BMBasePlayerViewController.h"
-#import "BMSocialSharingManager.h"
-#import "BMAnalyticsRequestResponseHandler.h"
 #import "BusinessRuleExecuterDelegate.h"
 #import "AnalyticsTrackingDelegate.h"
 
-@class BMSocialSharingManager;
-@class BMBasePlayerViewController;
-
 @interface BMBusinessRuleExecuter : NSObject <BusinessRuleExecuterDelegate>
 
-@property (nonatomic,strong) BMBasePlayerViewController *basePlayerController;
-@property (nonatomic,strong) BMSocialSharingManager *socialSharingManager;
 @property (nonatomic,assign) id<AnalyticsTrackingDelegate> analyticsDelegate;
-@property (nonatomic, strong) BMAnalyticsRequestResponseHandler *analyticsResponseHandler;
-@property (nonatomic, strong) BMResourceManager *resourceManager;
 
 - (void)executeBusinessRuleForUI:(NSArray*)array;
 

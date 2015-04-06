@@ -2,7 +2,7 @@
 //  GameDemoAppTests.m
 //  GameDemoAppTests
 //
-//  Created by Rahul on 19/01/15.
+//  Created by Boom on 19/01/15.
 //  Copyright (c) 2015 BM. All rights reserved.
 //
 

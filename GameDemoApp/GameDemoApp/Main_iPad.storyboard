@@ -44,6 +44,15 @@
                                     <action selector="offerListButtonPressed:" destination="hFM-ri-iyx" eventType="touchUpInside" id="N1T-oP-Cah"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9K-hM-aCv">
+                                <rect key="frame" x="267" y="434" width="53" height="30"/>
+                                <state key="normal" title="Banner">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i87-pq-CMP" kind="modal" id="ZOK-N3-xca"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -51,6 +60,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QMH-dP-ODy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="497" y="844"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="zin-Cb-UtF">
+            <objects>
+                <viewController id="i87-pq-CMP" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IT2-cj-c1P"/>
+                        <viewControllerLayoutGuide type="bottom" id="W40-lC-aaW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Oy-c8-Bee">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJF-Oz-VwS">
+                                <rect key="frame" x="50" y="73" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="i87-pq-CMP" eventType="touchUpInside" id="7U9-fS-FZN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HB4-Wf-hk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1310" y="844"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -34,4 +34,5 @@ typedef enum{
 
 @required
 - (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode) eventCode withData:(NSDictionary*)detailData;
+
 @end

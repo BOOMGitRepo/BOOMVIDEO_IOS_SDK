@@ -6,13 +6,9 @@
 //  Copyright (c) 2014 Boom. All rights reserved.
 //
 
-
-
-
 #import <Foundation/Foundation.h>
 #import "BMBusinessRuleExecuter.h"
 #import "BMVideoData.h"
-#import "BusinessRuleExecuterDelegate.h"
 #import "BoomVideoTrackerDelegate.h"
 #import "AnalyticsTrackingDelegate.h"
 
@@ -22,33 +18,39 @@
 typedef enum {
     BMPreroll = 0,
     BMReward = 1,
-    BMOfferList = 2
+    BMOfferList = 2,
+    BMBanner = 3
 } BMFunctionType;
+
+typedef enum {
+    LessThan,
+    LessThanEqualTo,
+    EqualTo,
+    GreaterThan,
+    GreaterThanEqualTo
+} BMComparingType;
 
 @interface BMResourceManager : NSObject <AnalyticsTrackingDelegate>
 
 +(BMResourceManager *) sharedInstance;
-+(void)showVideoForGUID:(NSString*)boomGuid withType:(BMFunctionType)type ;
-- (void)createVPIDWithID:(NSString*)boomID;
+- (void)showVideoForGUID:(NSString *)boomGuid withType:(BMFunctionType)type ;
+- (UIView *)showBannerForGUID:(NSString *)boomGuid withFrame:(CGRect)bannerFrame onTarget:(UIViewController *)viewController;
+- (void)showInterstitialForGUID:(NSString *)boomGuid withUrl:(NSString *)urlString onTarget:(UIViewController *)viewController;
 
+- (BOOL)versionOfDeviceIs:(BMComparingType)comparingType withVersion:(int)version;
 - (void)forwardDataToBusinessExecuter:(NSArray*)dataArray withBoomGuid:(NSString*)boomGuid;
-- (void)giveMessageToBusinessRuleExecuterForOfferListwithBoomGuid:(NSString*)boomGuid;
 - (void)stopIndicator;
+- (NSString *)createASIdentifier;
 
-@property (nonatomic, assign) id<BusinessRuleExecuterDelegate> businessRuleExecuterDelegate;
 @property (nonatomic, assign) id<BoomVideoTrackerDelegate> videoTrackerInfoDelegate;
-@property (nonatomic, strong) BMBusinessRuleRequestResponseHandler *bmBusinessRuleHandler;
 @property (nonatomic, strong) BMBusinessRuleExecuter *businessRuleExecuter;
 @property (nonatomic, strong) BMVideoData *videoData;
 @property (nonatomic, copy) NSString *vpid;
 @property (nonatomic, copy) NSString *boomGuid;
 @property (nonatomic, assign) int type;
-@property (nonatomic, strong) NSArray *responseArray;
+@property (nonatomic, assign) BOOL flag;
 @property (nonatomic, strong) NSString *videoPercentCompletion;
 @property (nonatomic, copy) NSString *points;
-
 @property (nonatomic, strong) UIActivityIndicatorView *indicator;
-@property (nonatomic, strong) UIViewController *activeViewController;
-@property (nonatomic, strong) UIView *indicatorView;
 
 @end

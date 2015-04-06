@@ -2,7 +2,7 @@
 //  ViewController.m
 //  GameDemoApp
 //
-//  Created by Rahul on 19/01/15.
+//  Created by Boom on 19/01/15.
 //  Copyright (c) 2015 BM. All rights reserved.
 //
 
@@ -43,15 +43,15 @@
 }
 
 - (IBAction)rewardButtonPressed:(id)sender {
-    [BMResourceManager showVideoForGUID:self.boomGuid withType:BMReward];
+    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMReward];
 }
 
 - (IBAction)offerListButtonPressed:(id)sender {
-    [BMResourceManager showVideoForGUID:self.boomGuid withType:BMOfferList];
+    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMOfferList];
 }
 
 - (IBAction)preRollButtonPressed:(id)sender {
-    [BMResourceManager showVideoForGUID:self.boomGuid withType:BMPreroll];
+    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMPreroll];
 }
 
 - (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode)eventCode withData:(NSDictionary *)detailData {
