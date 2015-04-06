@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view.
     NSString *boomGuid = @"ff0033eb-481e-4da3-8d54-0ac3f9e5e66f";   //Demo BoomGUID
     self.resourceManager = [BMResourceManager sharedInstance];
-    [self.view addSubview:[self.resourceManager showBannerForGUID:boomGuid withFrame:CGRectMake(0, 80, 320, 100) onTarget:self]];
+    [self.view addSubview:[self.resourceManager showBannerForGUID:boomGuid withFrame:CGRectMake(0, 80, self.view.frame.size.width, 100) onTarget:self]];
 }
 
 - (void)didReceiveMemoryWarning {

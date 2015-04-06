@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B71701351AD2B40F009A647C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71701341AD2B40F009A647C /* SecondViewController.m */; };
-		B72F33E11AD2BB7000236E9F /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B72F33E01AD2BB7000236E9F /* libBoomVideoMRAID_SDKLibrary.a */; };
+		B72F33EB1AD2C84C00236E9F /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B72F33EA1AD2C84C00236E9F /* libBoomVideoMRAID_SDKLibrary.a */; };
 		B73C25161A6D2E2200E5B582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C25151A6D2E2200E5B582 /* main.m */; };
 		B73C25191A6D2E2200E5B582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C25181A6D2E2200E5B582 /* AppDelegate.m */; };
 		B73C251C1A6D2E2200E5B582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C251B1A6D2E2200E5B582 /* ViewController.m */; };
@@ -48,13 +48,13 @@
 /* Begin PBXFileReference section */
 		B71701331AD2B40F009A647C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B71701341AD2B40F009A647C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B72F33DA1AD2BB7000236E9F /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		B72F33DB1AD2BB7000236E9F /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		B72F33DC1AD2BB7000236E9F /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		B72F33DD1AD2BB7000236E9F /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		B72F33DE1AD2BB7000236E9F /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		B72F33DF1AD2BB7000236E9F /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		B72F33E01AD2BB7000236E9F /* libBoomVideoMRAID_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoMRAID_SDKLibrary.a; sourceTree = "<group>"; };
+		B72F33E41AD2C84C00236E9F /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
+		B72F33E51AD2C84C00236E9F /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
+		B72F33E61AD2C84C00236E9F /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		B72F33E71AD2C84C00236E9F /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
+		B72F33E81AD2C84C00236E9F /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		B72F33E91AD2C84C00236E9F /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
+		B72F33EA1AD2C84C00236E9F /* libBoomVideoMRAID_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoMRAID_SDKLibrary.a; sourceTree = "<group>"; };
 		B73C25101A6D2E2200E5B582 /* GameDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73C25141A6D2E2200E5B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73C25151A6D2E2200E5B582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				B73C25521A6D2FCA00E5B582 /* JavaScriptCore.framework in Frameworks */,
 				B73C25531A6D2FCA00E5B582 /* MediaPlayer.framework in Frameworks */,
 				B73C25541A6D2FCA00E5B582 /* Security.framework in Frameworks */,
-				B72F33E11AD2BB7000236E9F /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */,
+				B72F33EB1AD2C84C00236E9F /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */,
 				B73C25551A6D2FCA00E5B582 /* Social.framework in Frameworks */,
 				B73C25561A6D2FCA00E5B582 /* SystemConfiguration.framework in Frameworks */,
 				B73C253E1A6D2F5300E5B582 /* GoogleOpenSource.framework in Frameworks */,
@@ -121,23 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B72F33D81AD2BB7000236E9F /* include */ = {
+		B72F33E21AD2C84C00236E9F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B72F33D91AD2BB7000236E9F /* BoomVideoMRAID_SDKLibrary */,
+				B72F33E31AD2C84C00236E9F /* BoomVideoMRAID_SDKLibrary */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		B72F33D91AD2BB7000236E9F /* BoomVideoMRAID_SDKLibrary */ = {
+		B72F33E31AD2C84C00236E9F /* BoomVideoMRAID_SDKLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B72F33DA1AD2BB7000236E9F /* AnalyticsTrackingDelegate.h */,
-				B72F33DB1AD2BB7000236E9F /* BMBusinessRuleExecuter.h */,
-				B72F33DC1AD2BB7000236E9F /* BMResourceManager.h */,
-				B72F33DD1AD2BB7000236E9F /* BMVideoData.h */,
-				B72F33DE1AD2BB7000236E9F /* BoomVideoTrackerDelegate.h */,
-				B72F33DF1AD2BB7000236E9F /* BusinessRuleExecuterDelegate.h */,
+				B72F33E41AD2C84C00236E9F /* AnalyticsTrackingDelegate.h */,
+				B72F33E51AD2C84C00236E9F /* BMBusinessRuleExecuter.h */,
+				B72F33E61AD2C84C00236E9F /* BMResourceManager.h */,
+				B72F33E71AD2C84C00236E9F /* BMVideoData.h */,
+				B72F33E81AD2C84C00236E9F /* BoomVideoTrackerDelegate.h */,
+				B72F33E91AD2C84C00236E9F /* BusinessRuleExecuterDelegate.h */,
 			);
 			path = BoomVideoMRAID_SDKLibrary;
 			sourceTree = "<group>";
@@ -240,8 +240,8 @@
 		B73C255B1A6D2FED00E5B582 /* ThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B72F33D81AD2BB7000236E9F /* include */,
-				B72F33E01AD2BB7000236E9F /* libBoomVideoMRAID_SDKLibrary.a */,
+				B72F33E21AD2C84C00236E9F /* include */,
+				B72F33EA1AD2C84C00236E9F /* libBoomVideoMRAID_SDKLibrary.a */,
 			);
 			name = ThirdPartyLibrary;
 			sourceTree = "<group>";
