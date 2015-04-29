@@ -55,6 +55,8 @@
 @property (nonatomic,copy) NSNumber *optionId;                      //  optionId
 @property (nonatomic,copy) NSNumber *brandliftId;                   //  brandliftId
 @property (nonatomic,copy) NSString *option;                        //  option
+@property (nonatomic,copy) NSString *frequencyCapValue;             //  freqCap
+@property (nonatomic,copy) NSString *mraidType;
 @property (nonatomic,strong) NSMutableArray *surveyQuestion;        //  survey
 @property (nonatomic,copy) NSString *mraidHtmlString;
 @property (nonatomic) double annStart;                              //  AnnotationStartTime

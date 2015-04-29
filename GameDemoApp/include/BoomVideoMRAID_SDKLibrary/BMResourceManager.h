@@ -34,7 +34,6 @@ typedef enum {
 
 +(BMResourceManager *) sharedInstance;
 - (void)showVideoForGUID:(NSString *)boomGuid withType:(BMFunctionType)type ;
-- (UIView *)showBannerForGUID:(NSString *)boomGuid withFrame:(CGRect)bannerFrame onTarget:(UIViewController *)viewController;
 - (void)showInterstitialForGUID:(NSString *)boomGuid withUrl:(NSString *)urlString onTarget:(UIViewController *)viewController;
 
 - (BOOL)versionOfDeviceIs:(BMComparingType)comparingType withVersion:(int)version;
@@ -51,6 +50,7 @@ typedef enum {
 @property (nonatomic, assign) BOOL flag;
 @property (nonatomic, strong) NSString *videoPercentCompletion;
 @property (nonatomic, copy) NSString *points;
+@property (nonatomic, copy) NSString *MraidPoints;
 @property (nonatomic, strong) UIActivityIndicatorView *indicator;
 
 @end

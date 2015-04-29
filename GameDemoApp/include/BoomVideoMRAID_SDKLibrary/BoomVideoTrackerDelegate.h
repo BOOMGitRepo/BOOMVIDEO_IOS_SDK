@@ -23,7 +23,12 @@ typedef enum{
     kRedirectedToInstall,
     kRedirectedToInstagram,
     kRedirectedToSlideshare,
+    kRedirectedToPurchase,
     kRedirectedToAnnotation,
+    kRedirectedToSignUp,
+    
+    kInterstitial,
+    kBanner,
     
     kNetworkNotAvailableError = - 200,
     kUnknownError,
