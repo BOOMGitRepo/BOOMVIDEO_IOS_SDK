@@ -31,11 +31,11 @@
 		B73C25581A6D2FD500E5B582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25571A6D2FD500E5B582 /* Foundation.framework */; };
 		B73C255A1A6D2FDB00E5B582 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25591A6D2FDB00E5B582 /* UIKit.framework */; };
 		B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */; };
-		B7A9EBF21AF1278A0074C977 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A9EBEB1AF127890074C977 /* Boom_Video_Storyboard_iPad.storyboard */; };
-		B7A9EBF31AF1278A0074C977 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A9EBEC1AF127890074C977 /* Boom_Video_Storyboard_iPhone.storyboard */; };
-		B7A9EBF41AF1278A0074C977 /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = B7A9EBEF1AF127890074C977 /* mraid.js */; };
-		B7A9EBF51AF1278A0074C977 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B7A9EBF01AF1278A0074C977 /* YTPlayerView-iframe-player.html */; };
-		B7A9EBF61AF1278A0074C977 /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A9EBF11AF1278A0074C977 /* libBoomVideoMRAID_SDKLibrary.a */; };
+		B79478DF1B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */; };
+		B79478E01B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */; };
+		B79478E11B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */; };
+		B79478E21B18BDAA00A42632 /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = B79478DD1B18BDAA00A42632 /* mraid.js */; };
+		B79478E31B18BDAA00A42632 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,17 +79,17 @@
 		B73C25571A6D2FD500E5B582 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B73C25591A6D2FDB00E5B582 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
-		B7A9EBE71AF127890074C977 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		B7A9EBE81AF127890074C977 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		B7A9EBE91AF127890074C977 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		B7A9EBEA1AF127890074C977 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		B7A9EBEB1AF127890074C977 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
-		B7A9EBEC1AF127890074C977 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B7A9EBED1AF127890074C977 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		B7A9EBEE1AF127890074C977 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		B7A9EBEF1AF127890074C977 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
-		B7A9EBF01AF1278A0074C977 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
-		B7A9EBF11AF1278A0074C977 /* libBoomVideoMRAID_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoMRAID_SDKLibrary.a; sourceTree = "<group>"; };
+		B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoVAST_SDKLibrary.a; sourceTree = "<group>"; };
+		B79478D51B18BDAA00A42632 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
+		B79478D61B18BDAA00A42632 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
+		B79478D71B18BDAA00A42632 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		B79478D81B18BDAA00A42632 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
+		B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B79478DB1B18BDAA00A42632 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		B79478DC1B18BDAA00A42632 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
+		B79478DD1B18BDAA00A42632 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
+		B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				B73C25521A6D2FCA00E5B582 /* JavaScriptCore.framework in Frameworks */,
 				B73C25531A6D2FCA00E5B582 /* MediaPlayer.framework in Frameworks */,
 				B73C25541A6D2FCA00E5B582 /* Security.framework in Frameworks */,
-				B7A9EBF61AF1278A0074C977 /* libBoomVideoMRAID_SDKLibrary.a in Frameworks */,
+				B79478DF1B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */,
 				B73C25551A6D2FCA00E5B582 /* Social.framework in Frameworks */,
 				B73C25561A6D2FCA00E5B582 /* SystemConfiguration.framework in Frameworks */,
 				B73C253E1A6D2F5300E5B582 /* GoogleOpenSource.framework in Frameworks */,
@@ -222,35 +222,35 @@
 		B73C255B1A6D2FED00E5B582 /* ThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B7A9EBE51AF127890074C977 /* include */,
-				B7A9EBF11AF1278A0074C977 /* libBoomVideoMRAID_SDKLibrary.a */,
+				B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */,
+				B79478D31B18BDAA00A42632 /* include */,
 			);
 			name = ThirdPartyLibrary;
 			sourceTree = "<group>";
 		};
-		B7A9EBE51AF127890074C977 /* include */ = {
+		B79478D31B18BDAA00A42632 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B7A9EBE61AF127890074C977 /* BoomVideoMRAID_SDKLibrary */,
+				B79478D41B18BDAA00A42632 /* BoomVideoVAST_SDKLibrary */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		B7A9EBE61AF127890074C977 /* BoomVideoMRAID_SDKLibrary */ = {
+		B79478D41B18BDAA00A42632 /* BoomVideoVAST_SDKLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B7A9EBE71AF127890074C977 /* AnalyticsTrackingDelegate.h */,
-				B7A9EBE81AF127890074C977 /* BMBusinessRuleExecuter.h */,
-				B7A9EBE91AF127890074C977 /* BMResourceManager.h */,
-				B7A9EBEA1AF127890074C977 /* BMVideoData.h */,
-				B7A9EBEB1AF127890074C977 /* Boom_Video_Storyboard_iPad.storyboard */,
-				B7A9EBEC1AF127890074C977 /* Boom_Video_Storyboard_iPhone.storyboard */,
-				B7A9EBED1AF127890074C977 /* BoomVideoTrackerDelegate.h */,
-				B7A9EBEE1AF127890074C977 /* BusinessRuleExecuterDelegate.h */,
-				B7A9EBEF1AF127890074C977 /* mraid.js */,
-				B7A9EBF01AF1278A0074C977 /* YTPlayerView-iframe-player.html */,
+				B79478D51B18BDAA00A42632 /* AnalyticsTrackingDelegate.h */,
+				B79478D61B18BDAA00A42632 /* BMBusinessRuleExecuter.h */,
+				B79478D71B18BDAA00A42632 /* BMResourceManager.h */,
+				B79478D81B18BDAA00A42632 /* BMVideoData.h */,
+				B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */,
+				B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */,
+				B79478DB1B18BDAA00A42632 /* BoomVideoTrackerDelegate.h */,
+				B79478DC1B18BDAA00A42632 /* BusinessRuleExecuterDelegate.h */,
+				B79478DD1B18BDAA00A42632 /* mraid.js */,
+				B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */,
 			);
-			path = BoomVideoMRAID_SDKLibrary;
+			path = BoomVideoVAST_SDKLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,12 +333,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A9EBF41AF1278A0074C977 /* mraid.js in Resources */,
+				B79478E21B18BDAA00A42632 /* mraid.js in Resources */,
 				B73C251F1A6D2E2200E5B582 /* Main.storyboard in Resources */,
-				B7A9EBF51AF1278A0074C977 /* YTPlayerView-iframe-player.html in Resources */,
-				B7A9EBF31AF1278A0074C977 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				B79478E31B18BDAA00A42632 /* YTPlayerView-iframe-player.html in Resources */,
+				B79478E11B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
 				B73C25241A6D2E2200E5B582 /* LaunchScreen.xib in Resources */,
-				B7A9EBF21AF1278A0074C977 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
+				B79478E01B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
 				B73C253F1A6D2F5300E5B582 /* GooglePlus.bundle in Resources */,
 				B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */,
 				B73C25211A6D2E2200E5B582 /* Images.xcassets in Resources */,
@@ -420,7 +420,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -462,7 +463,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -485,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -499,7 +502,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -521,7 +525,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

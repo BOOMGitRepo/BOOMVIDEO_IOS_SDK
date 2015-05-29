@@ -39,7 +39,7 @@
 }
 
 -(NSUInteger)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 - (IBAction)rewardButtonPressed:(id)sender {
