@@ -28,6 +28,8 @@
     self.resourceManager.videoTrackerInfoDelegate = self;
 }
 
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
