@@ -11,10 +11,11 @@
 #import <UIKit/UIKit.h>
 #import "BusinessRuleExecuterDelegate.h"
 #import "AnalyticsTrackingDelegate.h"
-
+typedef void(^offerlistBrandliftResponse)(NSString *responseString);
 @interface BMBusinessRuleExecuter : NSObject <BusinessRuleExecuterDelegate>
 
 @property (nonatomic,assign) id<AnalyticsTrackingDelegate> analyticsDelegate;
+@property (strong, nonatomic) offerlistBrandliftResponse brandliftBlock;
 
 - (void)executeBusinessRuleForUI:(NSArray*)array;
 

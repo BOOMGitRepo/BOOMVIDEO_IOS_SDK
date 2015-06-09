@@ -39,11 +39,13 @@ typedef enum {
 - (BOOL)versionOfDeviceIs:(BMComparingType)comparingType withVersion:(int)version;
 - (void)forwardDataToBusinessExecuter:(NSArray*)dataArray withBoomGuid:(NSString*)boomGuid;
 - (void)stopIndicator;
+- (NSString *)getIPAddress;
 - (NSString *)createASIdentifier;
 
 @property (nonatomic, assign) id<BoomVideoTrackerDelegate> videoTrackerInfoDelegate;
 @property (nonatomic, strong) BMBusinessRuleExecuter *businessRuleExecuter;
 @property (nonatomic, strong) BMVideoData *videoData;
+@property (nonatomic, strong) NSMutableArray *campaignsArray;
 @property (nonatomic, copy) NSString *vpid;
 @property (nonatomic, copy) NSString *boomGuid;
 @property (nonatomic, assign) int type;

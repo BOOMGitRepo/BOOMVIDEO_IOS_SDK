@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>600DFDE5-3282-4170-946C-FC24203182F6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>GameDemoApp</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FB41400CB8E9E9CA30A040C09FFC7DB6E5697091</key>
 		<string>https://github.com/BOOMGitRepo/BOOMVideo_iOS_Example.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GameDemoApp/GameDemoApp.xcodeproj</string>
+	<string>GameDemoApp/GameDemoApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FB41400CB8E9E9CA30A040C09FFC7DB6E5697091</key>
