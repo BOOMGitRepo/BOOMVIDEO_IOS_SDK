@@ -35,7 +35,6 @@ typedef enum {
 +(BMResourceManager *) sharedInstance;
 - (void)showVideoForGUID:(NSString *)boomGuid withType:(BMFunctionType)type ;
 - (void)showInterstitialForGUID:(NSString *)boomGuid withUrl:(NSString *)urlString onTarget:(UIViewController *)viewController;
-
 - (BOOL)versionOfDeviceIs:(BMComparingType)comparingType withVersion:(int)version;
 - (void)forwardDataToBusinessExecuter:(NSArray*)dataArray withBoomGuid:(NSString*)boomGuid;
 - (void)stopIndicator;
