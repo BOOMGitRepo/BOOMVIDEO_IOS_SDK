@@ -36,13 +36,13 @@
     // Dispose of any resources that can be recreated.
 }
 
--(BOOL)shouldAutorotate{
+/*-(BOOL)shouldAutorotate{
     return YES;
 }
 
 -(NSUInteger)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;
-}
+}*/
 
 - (IBAction)rewardButtonPressed:(id)sender {
     [self.resourceManager showVideoForGUID:self.boomGuid withType:BMReward];

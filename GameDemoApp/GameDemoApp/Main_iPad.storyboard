@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="hFM-ri-iyx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4A-M1-QaK">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="Pla-Ln-iWs">
+        <scene sceneID="fYx-nT-xsp">
             <objects>
-                <viewController id="hFM-ri-iyx" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="M4A-M1-QaK" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cQa-FM-z2q"/>
-                        <viewControllerLayoutGuide type="bottom" id="U57-AL-aLs"/>
+                        <viewControllerLayoutGuide type="top" id="qwC-kW-XD2"/>
+                        <viewControllerLayoutGuide type="bottom" id="zOp-wP-mhB"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7Yg-Jd-kcD">
+                    <view key="view" contentMode="scaleToFill" id="Isz-Yv-VQl">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knw-io-WJW">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r79-Ex-D23">
                                 <rect key="frame" x="338" y="421" width="92" height="30"/>
                                 <state key="normal" title="Preroll">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="preRollButtonPressed:" destination="hFM-ri-iyx" eventType="touchUpInside" id="Ms6-4o-thp"/>
+                                    <action selector="preRollButtonPressed:" destination="M4A-M1-QaK" eventType="touchUpInside" id="y5B-ke-SYt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy7-c4-aKN">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2K-uv-ZOR">
                                 <rect key="frame" x="338" y="491" width="92" height="30"/>
                                 <state key="normal" title="Reward">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="rewardButtonPressed:" destination="hFM-ri-iyx" eventType="touchUpInside" id="Wcz-uA-4od"/>
+                                    <action selector="rewardButtonPressed:" destination="M4A-M1-QaK" eventType="touchUpInside" id="iEM-sr-0lI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB3-fe-pGx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggv-U7-lbe">
                                 <rect key="frame" x="338" y="573" width="92" height="30"/>
                                 <state key="normal" title="Offerlist">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="offerListButtonPressed:" destination="hFM-ri-iyx" eventType="touchUpInside" id="N1T-oP-Cah"/>
+                                    <action selector="offerListButtonPressed:" destination="M4A-M1-QaK" eventType="touchUpInside" id="tCg-lR-fHw"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QMH-dP-ODy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QMa-ed-w8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="497" y="844"/>
         </scene>

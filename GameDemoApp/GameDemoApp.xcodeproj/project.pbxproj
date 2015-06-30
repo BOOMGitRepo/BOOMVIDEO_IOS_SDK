@@ -10,7 +10,6 @@
 		B73C25161A6D2E2200E5B582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C25151A6D2E2200E5B582 /* main.m */; };
 		B73C25191A6D2E2200E5B582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C25181A6D2E2200E5B582 /* AppDelegate.m */; };
 		B73C251C1A6D2E2200E5B582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C251B1A6D2E2200E5B582 /* ViewController.m */; };
-		B73C251F1A6D2E2200E5B582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C251D1A6D2E2200E5B582 /* Main.storyboard */; };
 		B73C25211A6D2E2200E5B582 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73C25201A6D2E2200E5B582 /* Images.xcassets */; };
 		B73C25241A6D2E2200E5B582 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73C25221A6D2E2200E5B582 /* LaunchScreen.xib */; };
 		B73C25301A6D2E2200E5B582 /* GameDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73C252F1A6D2E2200E5B582 /* GameDemoAppTests.m */; };
@@ -30,12 +29,13 @@
 		B73C25561A6D2FCA00E5B582 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C254B1A6D2FCA00E5B582 /* SystemConfiguration.framework */; };
 		B73C25581A6D2FD500E5B582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25571A6D2FD500E5B582 /* Foundation.framework */; };
 		B73C255A1A6D2FDB00E5B582 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73C25591A6D2FDB00E5B582 /* UIKit.framework */; };
-		B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */; };
-		B79478DF1B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */; };
-		B79478E01B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */; };
-		B79478E11B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */; };
-		B79478E21B18BDAA00A42632 /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = B79478DD1B18BDAA00A42632 /* mraid.js */; };
-		B79478E31B18BDAA00A42632 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */; };
+		B7D9657B1B42733C0077D804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D9657A1B42733C0077D804 /* Main.storyboard */; };
+		B7D9657D1B4273860077D804 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D9657C1B4273860077D804 /* Main_iPad.storyboard */; };
+		B7D9659D1B4295080077D804 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D965961B4295080077D804 /* Boom_Video_Storyboard_iPad.storyboard */; };
+		B7D9659E1B4295080077D804 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D965971B4295080077D804 /* Boom_Video_Storyboard_iPhone.storyboard */; };
+		B7D9659F1B4295080077D804 /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = B7D9659A1B4295080077D804 /* mraid.js */; };
+		B7D965A01B4295080077D804 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B7D9659B1B4295080077D804 /* YTPlayerView-iframe-player.html */; };
+		B7D965A11B4295080077D804 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D9659C1B4295080077D804 /* libBoomVideoVAST_SDKLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		B73C25181A6D2E2200E5B582 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B73C251A1A6D2E2200E5B582 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B73C251B1A6D2E2200E5B582 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B73C251E1A6D2E2200E5B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B73C25201A6D2E2200E5B582 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B73C25231A6D2E2200E5B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B73C25291A6D2E2200E5B582 /* GameDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,18 +77,19 @@
 		B73C254B1A6D2FCA00E5B582 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B73C25571A6D2FD500E5B582 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B73C25591A6D2FDB00E5B582 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
-		B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoVAST_SDKLibrary.a; sourceTree = "<group>"; };
-		B79478D51B18BDAA00A42632 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		B79478D61B18BDAA00A42632 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		B79478D71B18BDAA00A42632 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		B79478D81B18BDAA00A42632 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
-		B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B79478DB1B18BDAA00A42632 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		B79478DC1B18BDAA00A42632 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		B79478DD1B18BDAA00A42632 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
-		B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		B7D9657A1B42733C0077D804 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B7D9657C1B4273860077D804 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		B7D965921B4295080077D804 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
+		B7D965931B4295080077D804 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
+		B7D965941B4295080077D804 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		B7D965951B4295080077D804 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
+		B7D965961B4295080077D804 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		B7D965971B4295080077D804 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B7D965981B4295080077D804 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		B7D965991B4295080077D804 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
+		B7D9659A1B4295080077D804 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
+		B7D9659B1B4295080077D804 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		B7D9659C1B4295080077D804 /* libBoomVideoVAST_SDKLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBoomVideoVAST_SDKLibrary.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				B73C25521A6D2FCA00E5B582 /* JavaScriptCore.framework in Frameworks */,
 				B73C25531A6D2FCA00E5B582 /* MediaPlayer.framework in Frameworks */,
 				B73C25541A6D2FCA00E5B582 /* Security.framework in Frameworks */,
-				B79478DF1B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */,
+				B7D965A11B4295080077D804 /* libBoomVideoVAST_SDKLibrary.a in Frameworks */,
 				B73C25551A6D2FCA00E5B582 /* Social.framework in Frameworks */,
 				B73C25561A6D2FCA00E5B582 /* SystemConfiguration.framework in Frameworks */,
 				B73C253E1A6D2F5300E5B582 /* GoogleOpenSource.framework in Frameworks */,
@@ -153,11 +153,11 @@
 				B73C25181A6D2E2200E5B582 /* AppDelegate.m */,
 				B73C251A1A6D2E2200E5B582 /* ViewController.h */,
 				B73C251B1A6D2E2200E5B582 /* ViewController.m */,
-				B73C251D1A6D2E2200E5B582 /* Main.storyboard */,
-				B73C25791A6D30D000E5B582 /* Main_iPad.storyboard */,
 				B73C25201A6D2E2200E5B582 /* Images.xcassets */,
 				B73C25221A6D2E2200E5B582 /* LaunchScreen.xib */,
 				B73C25131A6D2E2200E5B582 /* Supporting Files */,
+				B7D9657A1B42733C0077D804 /* Main.storyboard */,
+				B7D9657C1B4273860077D804 /* Main_iPad.storyboard */,
 			);
 			path = GameDemoApp;
 			sourceTree = "<group>";
@@ -222,33 +222,33 @@
 		B73C255B1A6D2FED00E5B582 /* ThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B79478D21B18BDAA00A42632 /* libBoomVideoVAST_SDKLibrary.a */,
-				B79478D31B18BDAA00A42632 /* include */,
+				B7D965901B4295080077D804 /* include */,
+				B7D9659C1B4295080077D804 /* libBoomVideoVAST_SDKLibrary.a */,
 			);
 			name = ThirdPartyLibrary;
 			sourceTree = "<group>";
 		};
-		B79478D31B18BDAA00A42632 /* include */ = {
+		B7D965901B4295080077D804 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B79478D41B18BDAA00A42632 /* BoomVideoVAST_SDKLibrary */,
+				B7D965911B4295080077D804 /* BoomVideoVAST_SDKLibrary */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		B79478D41B18BDAA00A42632 /* BoomVideoVAST_SDKLibrary */ = {
+		B7D965911B4295080077D804 /* BoomVideoVAST_SDKLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				B79478D51B18BDAA00A42632 /* AnalyticsTrackingDelegate.h */,
-				B79478D61B18BDAA00A42632 /* BMBusinessRuleExecuter.h */,
-				B79478D71B18BDAA00A42632 /* BMResourceManager.h */,
-				B79478D81B18BDAA00A42632 /* BMVideoData.h */,
-				B79478D91B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard */,
-				B79478DA1B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard */,
-				B79478DB1B18BDAA00A42632 /* BoomVideoTrackerDelegate.h */,
-				B79478DC1B18BDAA00A42632 /* BusinessRuleExecuterDelegate.h */,
-				B79478DD1B18BDAA00A42632 /* mraid.js */,
-				B79478DE1B18BDAA00A42632 /* YTPlayerView-iframe-player.html */,
+				B7D965921B4295080077D804 /* AnalyticsTrackingDelegate.h */,
+				B7D965931B4295080077D804 /* BMBusinessRuleExecuter.h */,
+				B7D965941B4295080077D804 /* BMResourceManager.h */,
+				B7D965951B4295080077D804 /* BMVideoData.h */,
+				B7D965961B4295080077D804 /* Boom_Video_Storyboard_iPad.storyboard */,
+				B7D965971B4295080077D804 /* Boom_Video_Storyboard_iPhone.storyboard */,
+				B7D965981B4295080077D804 /* BoomVideoTrackerDelegate.h */,
+				B7D965991B4295080077D804 /* BusinessRuleExecuterDelegate.h */,
+				B7D9659A1B4295080077D804 /* mraid.js */,
+				B7D9659B1B4295080077D804 /* YTPlayerView-iframe-player.html */,
 			);
 			path = BoomVideoVAST_SDKLibrary;
 			sourceTree = "<group>";
@@ -333,14 +333,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79478E21B18BDAA00A42632 /* mraid.js in Resources */,
-				B73C251F1A6D2E2200E5B582 /* Main.storyboard in Resources */,
-				B79478E31B18BDAA00A42632 /* YTPlayerView-iframe-player.html in Resources */,
-				B79478E11B18BDAA00A42632 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				B7D9659F1B4295080077D804 /* mraid.js in Resources */,
 				B73C25241A6D2E2200E5B582 /* LaunchScreen.xib in Resources */,
-				B79478E01B18BDAA00A42632 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
+				B7D965A01B4295080077D804 /* YTPlayerView-iframe-player.html in Resources */,
+				B7D9659E1B4295080077D804 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				B7D9657B1B42733C0077D804 /* Main.storyboard in Resources */,
+				B7D9659D1B4295080077D804 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
+				B7D9657D1B4273860077D804 /* Main_iPad.storyboard in Resources */,
 				B73C253F1A6D2F5300E5B582 /* GooglePlus.bundle in Resources */,
-				B73C257A1A6D30D000E5B582 /* Main_iPad.storyboard in Resources */,
 				B73C25211A6D2E2200E5B582 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B73C251D1A6D2E2200E5B582 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B73C251E1A6D2E2200E5B582 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B73C25221A6D2E2200E5B582 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
