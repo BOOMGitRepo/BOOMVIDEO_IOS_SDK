@@ -24,8 +24,7 @@
 {
     [super viewDidLoad];
     self.boomGuid = @"9c6543a6-a41e-4657-9178-84210b22d794";    //Demo boomGUID
-    self.resourceManager = [BMResourceManager sharedInstance];
-    self.resourceManager.videoTrackerInfoDelegate = self;
+    [BMResourceManager sharedInstance].videoTrackerInfoDelegate = self;
 }
 
 
@@ -45,15 +44,15 @@
 }*/
 
 - (IBAction)rewardButtonPressed:(id)sender {
-    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMReward];
+    [[BMResourceManager sharedInstance] showVideoForGUID:self.boomGuid withType:BMReward];
 }
 
 - (IBAction)offerListButtonPressed:(id)sender {
-    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMOfferList];
+    [[BMResourceManager sharedInstance] showVideoForGUID:self.boomGuid withType:BMOfferList];
 }
 
 - (IBAction)preRollButtonPressed:(id)sender {
-    [self.resourceManager showVideoForGUID:self.boomGuid withType:BMPreroll];
+    [[BMResourceManager sharedInstance] showVideoForGUID:self.boomGuid withType:BMPreroll];
 }
 
 - (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode)eventCode withData:(NSDictionary *)detailData {

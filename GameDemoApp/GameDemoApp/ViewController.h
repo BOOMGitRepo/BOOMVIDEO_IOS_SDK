@@ -11,7 +11,5 @@
 
 @interface ViewController : UIViewController <BoomVideoTrackerDelegate>
 
-@property (nonatomic, strong) BMResourceManager *resourceManager;
-
 @end
 
