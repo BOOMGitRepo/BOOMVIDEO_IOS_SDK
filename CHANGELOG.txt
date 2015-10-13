@@ -1,0 +1,14 @@
+
+# v1.7.1 - 17 August 2015
+- Fix kNetworkNotAvailableError bug
+- Fix runloop issue(IOS7 with iPad)
+- Fix Video size/offer list size issue
+
+# v1.8 - 13 Oct 2015
+- Update SDK to be VAST Capability
+- Added Skip button, industry icon for Pre-roll Video
+- Added Brand lift Survey after video Completion
+- Fix Mraid issue
+- New Callback event
+- Added location(lat, long) setting
+- Fix request issue
