@@ -1,14 +1,13 @@
 # Get Started
 
-Follow our [Document](http://boom.boomvideo.tv/alpha/app/integrationdoc/BoomVideo_IOS_IntegrationDoc.pdf) to Integrate SDK
+Follow our [Document](https://boomcollective.zendesk.com/hc/en-us/articles/204823129) to Integrate SDK
 
 Download [Library](IOSSDK/BoomiOSVideoPlayerLibrary.zip)
 
 # Supported System
 IOS version 7 to 8
 
-# Features
+# Import setting for IOS 9
+Add in a dictionary called 'NSAppTransportSecurity'. Make sure you add this dictionary on the 'Top Level Key'. 
+Inside this dictionary, add a Boolean called 'NSAllowsArbitraryLoads' and set it to YES
 
-
-
-<script src="https://gist.github.com/nisrulz/11c0d63428b108f10c83.js"></script>
