@@ -1,7 +1,8 @@
-v 2.0
-- 13 Apr 2016
+v 2.0.0
+- 17 May 2016
 - Add Networks
 - Add Native Ads
+- Add Interstitial Ads
 
 
 v 1.8 
