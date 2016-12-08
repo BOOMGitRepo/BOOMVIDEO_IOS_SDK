@@ -5,7 +5,7 @@ Follow our [Document](https://boomcollective.zendesk.com/hc/en-us/articles/20482
 Download [Library](IOSSDK/BoomiOSVideoPlayerLibrary.zip)
 
 # Supported System
-IOS version 7 to 8
+IOS version 8+
 
 # Import setting for IOS 9
 Add in a dictionary called 'NSAppTransportSecurity'. Make sure you add this dictionary on the 'Top Level Key'. 
