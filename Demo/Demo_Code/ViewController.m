@@ -1,3 +1,14 @@
+//
+//  ViewController.m
+//
+//  Created by Boom
+//  Copyright (c) 2016 Boom. All rights reserved.
+//  Below code are just Example Code for Integration, please add your customized code when integraed
+//  Follow the document to add Integration Code
+//
+
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
